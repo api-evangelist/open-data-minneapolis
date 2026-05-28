@@ -1,0 +1,32 @@
+aid: open-data-minneapolis
+name: Open Data Minneapolis
+description: "Spatial (GIS) and non-spatial city data for Minneapolis"
+url: https://opendata.minneapolismn.gov/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Open Data"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Open Data
+  - Public APIs
+apis:
+  - name: Open Data Minneapolis
+    description: "Spatial (GIS) and non-spatial city data for Minneapolis"
+    humanURL: https://opendata.minneapolismn.gov/
+    baseURL: https://opendata.minneapolismn.gov/
+    tags:
+      - Open Data
+    properties:
+      - type: Documentation
+        url: https://opendata.minneapolismn.gov/
+common:
+  - type: Website
+    url: https://opendata.minneapolismn.gov/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
