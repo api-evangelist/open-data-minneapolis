@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://opendata.minneapolismn.gov/
 common:
+  - type: VulnerabilityDisclosure
+    url: security/open-data-minneapolis-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/open-data-minneapolis-domain-security.yml
   - type: Website
     url: https://opendata.minneapolismn.gov/
   - type: PublicAPIsListing
