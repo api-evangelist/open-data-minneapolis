@@ -39,7 +39,6 @@ apis:
   - name: Open Data Minneapolis
     description: "Spatial (GIS) and non-spatial city data for Minneapolis"
     humanURL: https://opendata.minneapolismn.gov/
-    baseURL: https://opendata.minneapolismn.gov/
     tags:
       - Open Data
     properties:
