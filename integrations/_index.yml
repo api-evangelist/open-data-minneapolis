@@ -60,3 +60,34 @@
     detected: '2026-10-21'
   status: not-a-workflow
   arazzo: null
+- slug: open-data-minneapolis-open-mobility-foundation-mds-agencies
+  label: Open Mobility Foundation MDS agencies
+  partner_name: Open Mobility Foundation MDS agencies
+  category: MDS agency registration
+  type: register
+  channel: standard-directory
+  evidence: https://raw.githubusercontent.com/openmobilityfoundation/mobility-data-specification/main/agencies.csv
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: Open Mobility Foundation MDS agencies
+    standard: Mobility Data Specification (MDS)
+    spec_file: null
+    role: mds-agency
+    registrations:
+    - registered_name: Minneapolis
+      agency_id: 88303227-48d6-4088-a690-65b4dcf381f7
+      agency_city: Minneapolis
+      agency_state: MN
+      agency_country: US
+      department_url: http://www.minneapolismn.gov/publicworks/trans/WCMSP-212816
+      requirement_url: null
+      matched_domain: minneapolismn.gov
+      matched_by: domain+local-verified
+      identity_note: City of Minneapolis open data on minneapolismn.gov, the MDS agency's own domain
+    signal_note: 'government side: the city is a registered MDS agency (consumer of providers'' MDS feeds); participation
+      only'
+    detected_by: sweep-open-mobility-foundation-mds.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null

@@ -55,6 +55,37 @@ edges:
     detected: '2026-10-21'
   detected_by: sweep-open-data-portals.py
   first_seen: '2026-10-21'
+- partner_name: Open Mobility Foundation MDS agencies
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://raw.githubusercontent.com/openmobilityfoundation/mobility-data-specification/main/agencies.csv
+  category: MDS agency registration
+  contract_reference:
+    register: Open Mobility Foundation MDS agencies
+    standard: Mobility Data Specification (MDS)
+    spec_file: null
+    role: mds-agency
+    registrations:
+    - registered_name: Minneapolis
+      agency_id: 88303227-48d6-4088-a690-65b4dcf381f7
+      agency_city: Minneapolis
+      agency_state: MN
+      agency_country: US
+      department_url: http://www.minneapolismn.gov/publicworks/trans/WCMSP-212816
+      requirement_url: null
+      matched_domain: minneapolismn.gov
+      matched_by: domain+local-verified
+      identity_note: City of Minneapolis open data on minneapolismn.gov, the MDS agency's own domain
+    signal_note: 'government side: the city is a registered MDS agency (consumer of providers'' MDS feeds); participation
+      only'
+    detected_by: sweep-open-mobility-foundation-mds.py
+    detected: '2026-10-22'
+  detected_by: sweep-open-mobility-foundation-mds.py
+  first_seen: '2026-10-22'
 generated: '2026-10-21'
 method: searched
 source:
@@ -71,3 +102,6 @@ checked:
 - 'https://interoperable-europe.ec.europa.eu/collection/semic-support-centre/dcat-ap (no implementations or conformance
   register: the ''SEMIC map'' link redirects to the collection home)'
 - https://raw.githubusercontent.com/ckan/ckan-instances/gh-pages/config/instances.json
+- https://openmobilityfoundation.org
+- https://raw.githubusercontent.com/openmobilityfoundation/mobility-data-specification/main/agencies.csv
+- https://raw.githubusercontent.com/openmobilityfoundation/mobility-data-specification/main/providers.csv
